@@ -1,38 +1,117 @@
-.App {
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-image: url(assets/images/Africanstetos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-white{
+  background-color: #ffff;
+}
+.bg-green{
+  background-color: #212852;
+}
+.bg-blue{
+  background-color: #61C2E9;
+}
+.titre {
+  font-family: 'Dosis';
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: 5em;
+  letter-spacing: .3em;
+  margin-bottom: 5px;
+  text-align: center;
+  position: relative;
+  top: 10vh;
+}
+
+form{
+  background-color: #212852;
+  width: 50%;
+  height:40vh ;
+  position: relative;
+  top: 7vh;
+  padding: 30px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.input-form{
+  border-top : none;
+  border-left : none;
+  border-right : none;
+  border-bottom-color: #ffff;
+  color :#ffff;
+  background-color: #212852;
+  outline: none;
+  width: 55%;
+}
+input[type="email"]::placeholder{
+  font-size: 15px;
+  color:#ffff;
+}
+input[type="password"]::placeholder{
+  font-size: 15px;
+  color:#ffff;
+  padding-bottom: 0px;
+}
+
+form .email input{
+  margin: 0 auto;
+  padding: 1em;
+}
+form .password input{
+  margin: 0 auto;
+  margin-left: 16px;
+  padding: 1em;
+}
+
+.form-elem{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input-btn{
+background-color: #8ac3c9;
+border: 1px solid #212852;
+font-family: 'Nunito';
+font-size: 20px;
+position: relative;
+padding: 10px;
+color: white;
+width: 40%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.forget{
+  margin-top: 10px;
+}
+a:hover{
+  color:#911616;
+}
+a:visited{
+  color:#afaaaa;
+}
+.logo-footer{
+  text-align: center;
+}
+ img{
+  position: relative;
+  top: 30vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+span{
+  position: relative; 
+  top: 100;
+  color : #ffff;
+  left: -20px;
+  width: 80px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.iconplus img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 20px;
+  padding-right: 20px;
 }
